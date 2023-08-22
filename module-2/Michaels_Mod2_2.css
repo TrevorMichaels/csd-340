@@ -1,0 +1,51 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    font-size: 16px;
+}
+
+h1{
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    font-weight: 500;
+    text-align: left;
+    padding-top: 15px;
+}
+
+p{
+    line-height: 1.4em;
+}
+
+address{
+    text-align: center;
+}
+
+a{
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+}
+
+.website-link:hover {
+    background-color: #D6A800;
+    text-decoration: underline;
+}
+
+.website-link:visited {
+    color: darkred;
+}
+
+.sentence {
+    font-style: italic;
+}
+
+.intro {
+    text-indent: 2em;
+}
