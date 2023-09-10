@@ -1,0 +1,44 @@
+html{
+    background-color: #006485;
+}
+
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1{
+    background-color: #A2A77F;
+    border: 1px solid #002E2C;
+    padding: 10px;
+}
+
+h2{
+    background-color: #A2A77F;
+    border: 1px solid #002E2C;
+    padding: 10px;
+}
+
+h3{
+    background-color: #A2A77F;
+    border: 1px solid #002E2C;
+    padding: 10px;
+}
+
+h4{
+    background-color: #A2A77F;
+    border: 1px solid #002E2C;
+    padding: 10px;
+}
+
+a{
+    color: #E3E7AF;
+}
+
+a:hover{
+    color: #F5F7CF;
+}
+a:visited{
+    color: #DCBE00;
+}
