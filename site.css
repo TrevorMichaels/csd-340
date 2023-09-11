@@ -1,5 +1,5 @@
 html{
-    background-color: #006485;
+    background-color: #B88B4A;
 }
 
 #container {
@@ -9,36 +9,37 @@ html{
 }
 
 h1{
-    background-color: #A2A77F;
+    background-color: #DDCA7D;
     border: 1px solid #002E2C;
     padding: 10px;
 }
 
 h2{
-    background-color: #A2A77F;
+    background-color: #DDCA7D;
     border: 1px solid #002E2C;
     padding: 10px;
 }
 
 h3{
-    background-color: #A2A77F;
+    background-color: #DDCA7D;
     border: 1px solid #002E2C;
     padding: 10px;
 }
 
 h4{
-    background-color: #A2A77F;
+    background-color: #DDCA7D;
     border: 1px solid #002E2C;
     padding: 10px;
 }
 
 a{
-    color: #E3E7AF;
+    color: #242331;
 }
 
-a:hover{
-    color: #F5F7CF;
+a:hover {
+    color: #F3F3F3
 }
-a:visited{
-    color: #DCBE00;
+
+a:visited {
+    color: #533E2D;
 }
