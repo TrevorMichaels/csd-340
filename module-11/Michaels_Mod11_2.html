@@ -1,0 +1,50 @@
+<!-- Trevor Michaels : Assignment 10.3 -->
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'
+  'http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd'>
+
+<html xmlns='http://www.w3.org/1999/xhtml'>
+ <head>
+    <title>
+      CSD 340 Web Development with HTML and CSS
+    </title>
+      <script>
+        let myArray = [];
+
+        function addElement() {
+            let textBoxValue = document.getElementById('myTextBox').value;
+            myArray.push(textBoxValue);
+        }
+
+        function deleteLastEntry() {
+            myArray.pop();
+            displayElements();
+        }
+
+        function displayArray() {
+            displayElements();
+        }
+
+        function displayElements() {
+            let output = document.getElementById('output');
+            output.innerHTML = '';
+            for (let i = 0; i < myArray.length; i++) {
+                output.innerHTML += 'Item ' + (i + 1) + ' = ' + myArray[i] + '<br>';
+            }
+        }
+      </script>
+     <link rel='stylesheet' type='text/css' href='/Users/trevormichaels/csd/csd-340/module-11/Michaels_Mod11_2.css' />
+</head>
+    
+<body>
+    <h1>Assignment 11.2: JavaScript - Part 3</h1>
+    <p>This is an interactive To Do List. Type in your first item in the text block, then click Add. Click the display button to see current items in list. Click on Delete Last Entry if you'd like to remove the last entry.</p>
+    <br />
+    <input type="text" id="myTextBox">
+    <button onclick="addElement()">Add</button>
+    <button onclick="deleteLastEntry()">Delete Last Entry</button>
+    <button onclick="displayArray()">Display</button>
+    
+    <hr>
+    <div id="output"></div>
+</body>
+</html>
